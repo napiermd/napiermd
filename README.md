@@ -91,6 +91,22 @@ The interesting problems are in the middle: turning raw speech into structured c
 
 ---
 
+## Latest Writing
+
+<!-- BLOG:START -->
+*No posts fetched yet — check [napiermd.me](https://napiermd.me)*
+<!-- BLOG:END -->
+
+---
+
+## Recent Activity
+
+<!-- ACTIVITY:START -->
+*Activity not yet fetched*
+<!-- ACTIVITY:END -->
+
+---
+
 ## Background
 
 - Emergency Medicine physician (board-certified)
@@ -103,6 +119,9 @@ The gap between what clinicians need and what health tech ships is enormous. Mos
 ---
 
 <div align="center">
+
+<!-- STATS:START -->
+<!-- STATS:END -->
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=napiermd&show_icons=true&theme=dark&hide_border=true&count_private=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=napiermd&layout=compact&theme=dark&hide_border=true)
