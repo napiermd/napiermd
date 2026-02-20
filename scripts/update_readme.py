@@ -180,7 +180,11 @@ def fetch_github_stats() -> tuple[list[str], int]:
         if etype == "PushEvent" and repo_name not in seen_repos:
             commits = payload.get("commits", [])
             count = len(commits)
-            msg = commits[0].get("message", "").split("\n")[0][:60] if commits else ""
+            if count == 0:
+                # GitHub omits commit details for pushes from the web UI / merges;
+                # skip rather than show "Pushed 0 commits"
+                continue
+            msg = commits[0].get("message", "").split("\n")[0][:60]
             label = "commit" if count == 1 else "commits"
             line = f"🔨 Pushed {count} {label} to [{repo_short}]({repo_url}) — *{msg}* `{date_str}`"
             seen_repos.add(repo_name)
