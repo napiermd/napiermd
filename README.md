@@ -102,11 +102,8 @@ The interesting problems are in the middle: turning raw speech into structured c
 ## Recent Activity
 
 <!-- ACTIVITY:START -->
-🌿 Created branch `main` in [ed-chest-pain-analytics](https://github.com/napiermd/ed-chest-pain-analytics) `Feb 19`
-🌿 Created branch `main` in [clinical-nlp-patterns](https://github.com/napiermd/clinical-nlp-patterns) `Feb 19`
-🌿 Created branch `main` in [napiermd](https://github.com/napiermd/napiermd) `Feb 19`
-🌿 Created branch `main` in [napiermd.me](https://github.com/napiermd/napiermd.me) `Feb 19`
-🌿 Created branch `main` in [claw-phone](https://github.com/napiermd/claw-phone) `Feb 19`
+🌿 Created branch `cds-clinical-advisor` in [sayvant/sayvant-cds-glasses](https://github.com/sayvant/sayvant-cds-glasses) `Mar 01`
+🔀 Opened PR in [compound-atlas](https://github.com/napiermd/compound-atlas): ** `Mar 01`
 <!-- ACTIVITY:END -->
 
 ---
@@ -125,7 +122,7 @@ The gap between what clinicians need and what health tech ships is enormous. Mos
 <div align="center">
 
 <!-- STATS:START -->
-**16 public repos** · *Updated February 23, 2026*
+**16 public repos** · *Updated March 02, 2026*
 <!-- STATS:END -->
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=napiermd&show_icons=true&theme=dark&hide_border=true&count_private=true)
