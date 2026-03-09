@@ -122,7 +122,7 @@ The gap between what clinicians need and what health tech ships is enormous. Mos
 <div align="center">
 
 <!-- STATS:START -->
-**16 public repos** · *Updated March 02, 2026*
+**16 public repos** · *Updated March 09, 2026*
 <!-- STATS:END -->
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=napiermd&show_icons=true&theme=dark&hide_border=true&count_private=true)
