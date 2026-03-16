@@ -69,7 +69,7 @@ The hardest part is not transcription accuracy. Language models will insert plau
 ## Latest Writing
 
 <!-- BLOG:START -->
-> [Building a Chest Pain Risk Stratifier from Clinical Conversations](https://napiermd.me/posts/building-a-chest-pain-risk-stratifier-from-clinical-conversations/) — February 21, 2026
+> [Preventing AI Fabrication in Clinical Documentation](https://napiermd.me/posts/preventing-ai-fabrication-in-clinical-documentation/) — February 21, 2026
 <!-- BLOG:END -->
 
 ---
@@ -77,8 +77,7 @@ The hardest part is not transcription accuracy. Language models will insert plau
 ## Recent Activity
 
 <!-- ACTIVITY:START -->
-🌿 Created branch `cds-clinical-advisor` in [sayvant/sayvant-cds-glasses](https://github.com/sayvant/sayvant-cds-glasses) `Mar 01`
-🔀 Opened PR in [compound-atlas](https://github.com/napiermd/compound-atlas): ** `Mar 01`
+🌿 Created branch `v2-reset` in [compound-atlas](https://github.com/napiermd/compound-atlas) `Mar 14`
 <!-- ACTIVITY:END -->
 
 ---
@@ -97,7 +96,7 @@ The gap between what clinicians need and what health tech ships is enormous. Mos
 <div align="center">
 
 <!-- STATS:START -->
-**16 public repos** · *Updated March 09, 2026*
+**16 public repos** · *Updated March 16, 2026*
 <!-- STATS:END -->
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=napiermd&show_icons=true&theme=dark&hide_border=true&count_private=true)
