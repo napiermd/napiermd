@@ -2,24 +2,22 @@
 
 # Andrew Napier, MD
 
-**Emergency Physician · Combat Veteran · Clinical AI Engineer**
+**Emergency Physician · Combat Veteran · Engineer**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrew_Napier-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/andrewnapiermd)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrew_Napier-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/napiermd)
 ![Profile Views](https://komarev.com/ghpvc/?username=napiermd&color=blueviolet&style=flat)
 
 </div>
 
 ---
 
-## What I build
+I build systems that operate under real pressure. Background is emergency medicine and combat medicine. I got into building software because I needed better tools and the existing ones were not good enough.
 
-I write production code for systems that process clinical decisions at scale. Background is emergency medicine and combat medicine. I build at the intersection of AI and clinical workflow because I've been the person who needed better tools at 2am.
-
-Current focus: multi-agent AI pipelines for clinical documentation, real-time predictive analytics, and medical device software.
+Current focus: clinical AI that does not make things up, and medical devices that fit a paramedic's budget.
 
 ---
 
-## Technical Stack
+## Stack
 
 **Languages**
 ```
@@ -29,63 +27,40 @@ TypeScript · Python · SQL · Bash
 **AI / ML**
 ```
 Multi-agent orchestration · NLP pipelines · Clinical entity extraction
-LLM fine-tuning · Prompt engineering · RAG architectures
+LLM evaluation · Prompt safety engineering · RAG architectures
 scikit-learn · OpenAI API · Anthropic API
 ```
 
 **Infrastructure**
 ```
 Node.js · React · Next.js · PostgreSQL · Supabase
-Railway · GitHub Actions · REST APIs · USB protocol integration
-```
-
-**Clinical Informatics**
-```
-SOAP note generation · Medical terminology normalization
-HL7 / FHIR concepts · Clinical decision support · ICD coding
+Railway · GitHub Actions · REST APIs
 ```
 
 ---
 
 ## Companies
 
-### IntuBlade — Founder & CEO
-Single-use video laryngoscopes connecting via USB-C directly to Android, iPad, and Windows. No proprietary screens. No recurring costs.
+### [IntuBlade](https://intublade.com) — Founder & CEO
+Single-use video laryngoscopes connecting via USB-C to Android, iPad, and Windows. No proprietary screens. No reprocessing. $95/unit.
 
-- 300+ EMS agencies across 25+ states
-- $95/unit — bringing visual airway management to resource-limited settings
-- Built the device software stack and protocol integration
+Video laryngoscopy improves first-pass intubation success. The existing devices cost $2,000+. Most ambulances do not have them. That is the problem I built this to fix.
 
-### Sayvant — Co-Founder
-Clinical AI documentation platform for emergency medicine.
+FDA cleared. Deployed across multiple states.
 
-- 100+ hospital partners
-- 800K+ clinical encounters processed
-- 13-agent pipeline for ambient-to-structured-note generation
-- Self-healing audit loop: MM Judge audits note quality, prescribes fixes, auto-deploys
+### [Sayvant](https://sayvant.com) — Co-Founder & Head of Clinical AI
+Clinical AI documentation for emergency and hospital medicine.
+
+The hardest part is not transcription accuracy. Language models will insert plausible-sounding findings that were never documented. I designed the pipeline and safety controls around that problem: extraction-only constraints, evidence grounding, string-match validation against source audio.
 
 ---
 
-## Architecture I think about
-
-```
-Ambient Audio → ASR → Clinical NLP → SOAP Structure → Quality Audit → Deploy
-                              ↑
-                    Medical Entity Extraction
-                    Terminology Normalization
-                    ICD/CPT Mapping
-```
-
-The interesting problems are in the middle: turning raw speech into structured clinical knowledge that a physician would actually sign.
-
----
-
-## Current Projects
+## Projects
 
 | Repo | What it is |
 |------|-----------|
-| [clinical-nlp-patterns](https://github.com/napiermd/clinical-nlp-patterns) | Architectural patterns for ambient-to-SOAP pipelines |
-| [ed-chest-pain-analytics](https://github.com/napiermd/ed-chest-pain-analytics) | Predictive analytics for ED chest pain evaluation (Stanford MCiM practicum) |
+| [clinical-nlp-patterns](https://github.com/napiermd/clinical-nlp-patterns) | Architectural patterns for reliable clinical documentation systems |
+| [ed-chest-pain-analytics](https://github.com/napiermd/ed-chest-pain-analytics) | Risk stratification for ED chest pain using ambient clinical conversations (Stanford MCiM practicum) |
 | [mission-control](https://github.com/napiermd/mission-control) | Digital office command center dashboard |
 | [claw-phone](https://github.com/napiermd/claw-phone) | Autonomous voice AI agent with real-time processing |
 
@@ -110,12 +85,12 @@ The interesting problems are in the middle: turning raw speech into structured c
 
 ## Background
 
-- Emergency Medicine physician (board-certified)
-- US Army medic — combat deployments
+- Emergency Medicine physician (board-certified, FAAEM)
+- US Army combat medic — one deployment to Afghanistan
 - Stanford Clinical Informatics (MCiM program)
-- Built things that run in ambulances and ICUs
+- 5 patents (3 issued)
 
-The gap between what clinicians need and what health tech ships is enormous. Most health tech is built by people who've never been in a code. I have.
+The gap between what clinicians need and what health tech ships is enormous. Most health tech is built by people who have never been in a code. I have.
 
 ---
 
