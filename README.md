@@ -77,7 +77,7 @@ The hardest part is not transcription accuracy. Language models will insert plau
 ## Recent Activity
 
 <!-- ACTIVITY:START -->
-🌿 Created branch `v2-reset` in [compound-atlas](https://github.com/napiermd/compound-atlas) `Mar 14`
+🔀 Opened PR in [compound-atlas](https://github.com/napiermd/compound-atlas): ** `Mar 20`
 <!-- ACTIVITY:END -->
 
 ---
@@ -96,7 +96,7 @@ The gap between what clinicians need and what health tech ships is enormous. Mos
 <div align="center">
 
 <!-- STATS:START -->
-**16 public repos** · *Updated March 16, 2026*
+**17 public repos** · *Updated March 23, 2026*
 <!-- STATS:END -->
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=napiermd&show_icons=true&theme=dark&hide_border=true&count_private=true)
